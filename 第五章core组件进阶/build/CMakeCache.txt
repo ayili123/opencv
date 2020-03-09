@@ -114,7 +114,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=yi
+CMAKE_PROJECT_NAME:STATIC=yii
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -179,6 +179,12 @@ yi_BINARY_DIR:STATIC=/home/li/opencvlearn/第五章core组件进阶/build
 
 //Value Computed by CMake
 yi_SOURCE_DIR:STATIC=/home/li/opencvlearn/第五章core组件进阶
+
+//Value Computed by CMake
+yii_BINARY_DIR:STATIC=/home/li/opencvlearn/第五章core组件进阶/build
+
+//Value Computed by CMake
+yii_SOURCE_DIR:STATIC=/home/li/opencvlearn/第五章core组件进阶
 
 
 ########################

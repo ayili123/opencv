@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named li
+
+# Build rule for target.
+li: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 li
+.PHONY : li
+
+# fast build rule for target.
+li/fast:
+	$(MAKE) -f CMakeFiles/li.dir/build.make CMakeFiles/li.dir/build
+.PHONY : li/fast
+
+#=============================================================================
 # Target rules for targets named yi
 
 # Build rule for target.
@@ -124,17 +137,17 @@ yi/fast:
 .PHONY : yi/fast
 
 #=============================================================================
-# Target rules for targets named li
+# Target rules for targets named yii
 
 # Build rule for target.
-li: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 li
-.PHONY : li
+yii: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 yii
+.PHONY : yii
 
 # fast build rule for target.
-li/fast:
-	$(MAKE) -f CMakeFiles/li.dir/build.make CMakeFiles/li.dir/build
-.PHONY : li/fast
+yii/fast:
+	$(MAKE) -f CMakeFiles/yii.dir/build.make CMakeFiles/yii.dir/build
+.PHONY : yii/fast
 
 chujituxiangronghe/ROI_LinearBlending.o: chujituxiangronghe/ROI_LinearBlending.cpp.o
 
@@ -162,6 +175,33 @@ chujituxiangronghe/ROI_LinearBlending.s: chujituxiangronghe/ROI_LinearBlending.c
 chujituxiangronghe/ROI_LinearBlending.cpp.s:
 	$(MAKE) -f CMakeFiles/li.dir/build.make CMakeFiles/li.dir/chujituxiangronghe/ROI_LinearBlending.cpp.s
 .PHONY : chujituxiangronghe/ROI_LinearBlending.cpp.s
+
+colorandbright/seicaihelaingdu.o: colorandbright/seicaihelaingdu.cpp.o
+
+.PHONY : colorandbright/seicaihelaingdu.o
+
+# target to build an object file
+colorandbright/seicaihelaingdu.cpp.o:
+	$(MAKE) -f CMakeFiles/yii.dir/build.make CMakeFiles/yii.dir/colorandbright/seicaihelaingdu.cpp.o
+.PHONY : colorandbright/seicaihelaingdu.cpp.o
+
+colorandbright/seicaihelaingdu.i: colorandbright/seicaihelaingdu.cpp.i
+
+.PHONY : colorandbright/seicaihelaingdu.i
+
+# target to preprocess a source file
+colorandbright/seicaihelaingdu.cpp.i:
+	$(MAKE) -f CMakeFiles/yii.dir/build.make CMakeFiles/yii.dir/colorandbright/seicaihelaingdu.cpp.i
+.PHONY : colorandbright/seicaihelaingdu.cpp.i
+
+colorandbright/seicaihelaingdu.s: colorandbright/seicaihelaingdu.cpp.s
+
+.PHONY : colorandbright/seicaihelaingdu.s
+
+# target to generate assembly for a file
+colorandbright/seicaihelaingdu.cpp.s:
+	$(MAKE) -f CMakeFiles/yii.dir/build.make CMakeFiles/yii.dir/colorandbright/seicaihelaingdu.cpp.s
+.PHONY : colorandbright/seicaihelaingdu.cpp.s
 
 splitandmerge/MultiChannelBlending.o: splitandmerge/MultiChannelBlending.cpp.o
 
@@ -198,11 +238,15 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... yi"
 	@echo "... li"
+	@echo "... yi"
+	@echo "... yii"
 	@echo "... chujituxiangronghe/ROI_LinearBlending.o"
 	@echo "... chujituxiangronghe/ROI_LinearBlending.i"
 	@echo "... chujituxiangronghe/ROI_LinearBlending.s"
+	@echo "... colorandbright/seicaihelaingdu.o"
+	@echo "... colorandbright/seicaihelaingdu.i"
+	@echo "... colorandbright/seicaihelaingdu.s"
 	@echo "... splitandmerge/MultiChannelBlending.o"
 	@echo "... splitandmerge/MultiChannelBlending.i"
 	@echo "... splitandmerge/MultiChannelBlending.s"

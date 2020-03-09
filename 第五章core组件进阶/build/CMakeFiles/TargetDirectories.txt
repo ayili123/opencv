@@ -1,4 +1,5 @@
 /home/li/opencvlearn/第五章core组件进阶/build/CMakeFiles/edit_cache.dir
 /home/li/opencvlearn/第五章core组件进阶/build/CMakeFiles/rebuild_cache.dir
-/home/li/opencvlearn/第五章core组件进阶/build/CMakeFiles/yi.dir
 /home/li/opencvlearn/第五章core组件进阶/build/CMakeFiles/li.dir
+/home/li/opencvlearn/第五章core组件进阶/build/CMakeFiles/yi.dir
+/home/li/opencvlearn/第五章core组件进阶/build/CMakeFiles/yii.dir
