@@ -1,0 +1,3 @@
+/home/li/opencvlearn/感兴趣区域ROI/CMakeFiles/edit_cache.dir
+/home/li/opencvlearn/感兴趣区域ROI/CMakeFiles/rebuild_cache.dir
+/home/li/opencvlearn/感兴趣区域ROI/CMakeFiles/li.dir
