@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/li/opencvlearn/第五章core组件进阶/chujituxiangronghe
+CMAKE_SOURCE_DIR = /home/li/opencvlearn/第五章core组件进阶
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/li/opencvlearn/第五章core组件进阶/chujituxiangronghe/build
+CMAKE_BINARY_DIR = /home/li/opencvlearn/第五章core组件进阶/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/li/opencvlearn/第五章core组件进阶/chujituxiangronghe/build/CMakeFiles /home/li/opencvlearn/第五章core组件进阶/chujituxiangronghe/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/li/opencvlearn/第五章core组件进阶/build/CMakeFiles /home/li/opencvlearn/第五章core组件进阶/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/li/opencvlearn/第五章core组件进阶/chujituxiangronghe/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/li/opencvlearn/第五章core组件进阶/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named yi
+
+# Build rule for target.
+yi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 yi
+.PHONY : yi
+
+# fast build rule for target.
+yi/fast:
+	$(MAKE) -f CMakeFiles/yi.dir/build.make CMakeFiles/yi.dir/build
+.PHONY : yi/fast
+
+#=============================================================================
 # Target rules for targets named li
 
 # Build rule for target.
@@ -123,32 +136,59 @@ li/fast:
 	$(MAKE) -f CMakeFiles/li.dir/build.make CMakeFiles/li.dir/build
 .PHONY : li/fast
 
-ROI_LinearBlending.o: ROI_LinearBlending.cpp.o
+chujituxiangronghe/ROI_LinearBlending.o: chujituxiangronghe/ROI_LinearBlending.cpp.o
 
-.PHONY : ROI_LinearBlending.o
+.PHONY : chujituxiangronghe/ROI_LinearBlending.o
 
 # target to build an object file
-ROI_LinearBlending.cpp.o:
-	$(MAKE) -f CMakeFiles/li.dir/build.make CMakeFiles/li.dir/ROI_LinearBlending.cpp.o
-.PHONY : ROI_LinearBlending.cpp.o
+chujituxiangronghe/ROI_LinearBlending.cpp.o:
+	$(MAKE) -f CMakeFiles/li.dir/build.make CMakeFiles/li.dir/chujituxiangronghe/ROI_LinearBlending.cpp.o
+.PHONY : chujituxiangronghe/ROI_LinearBlending.cpp.o
 
-ROI_LinearBlending.i: ROI_LinearBlending.cpp.i
+chujituxiangronghe/ROI_LinearBlending.i: chujituxiangronghe/ROI_LinearBlending.cpp.i
 
-.PHONY : ROI_LinearBlending.i
+.PHONY : chujituxiangronghe/ROI_LinearBlending.i
 
 # target to preprocess a source file
-ROI_LinearBlending.cpp.i:
-	$(MAKE) -f CMakeFiles/li.dir/build.make CMakeFiles/li.dir/ROI_LinearBlending.cpp.i
-.PHONY : ROI_LinearBlending.cpp.i
+chujituxiangronghe/ROI_LinearBlending.cpp.i:
+	$(MAKE) -f CMakeFiles/li.dir/build.make CMakeFiles/li.dir/chujituxiangronghe/ROI_LinearBlending.cpp.i
+.PHONY : chujituxiangronghe/ROI_LinearBlending.cpp.i
 
-ROI_LinearBlending.s: ROI_LinearBlending.cpp.s
+chujituxiangronghe/ROI_LinearBlending.s: chujituxiangronghe/ROI_LinearBlending.cpp.s
 
-.PHONY : ROI_LinearBlending.s
+.PHONY : chujituxiangronghe/ROI_LinearBlending.s
 
 # target to generate assembly for a file
-ROI_LinearBlending.cpp.s:
-	$(MAKE) -f CMakeFiles/li.dir/build.make CMakeFiles/li.dir/ROI_LinearBlending.cpp.s
-.PHONY : ROI_LinearBlending.cpp.s
+chujituxiangronghe/ROI_LinearBlending.cpp.s:
+	$(MAKE) -f CMakeFiles/li.dir/build.make CMakeFiles/li.dir/chujituxiangronghe/ROI_LinearBlending.cpp.s
+.PHONY : chujituxiangronghe/ROI_LinearBlending.cpp.s
+
+splitandmerge/MultiChannelBlending.o: splitandmerge/MultiChannelBlending.cpp.o
+
+.PHONY : splitandmerge/MultiChannelBlending.o
+
+# target to build an object file
+splitandmerge/MultiChannelBlending.cpp.o:
+	$(MAKE) -f CMakeFiles/yi.dir/build.make CMakeFiles/yi.dir/splitandmerge/MultiChannelBlending.cpp.o
+.PHONY : splitandmerge/MultiChannelBlending.cpp.o
+
+splitandmerge/MultiChannelBlending.i: splitandmerge/MultiChannelBlending.cpp.i
+
+.PHONY : splitandmerge/MultiChannelBlending.i
+
+# target to preprocess a source file
+splitandmerge/MultiChannelBlending.cpp.i:
+	$(MAKE) -f CMakeFiles/yi.dir/build.make CMakeFiles/yi.dir/splitandmerge/MultiChannelBlending.cpp.i
+.PHONY : splitandmerge/MultiChannelBlending.cpp.i
+
+splitandmerge/MultiChannelBlending.s: splitandmerge/MultiChannelBlending.cpp.s
+
+.PHONY : splitandmerge/MultiChannelBlending.s
+
+# target to generate assembly for a file
+splitandmerge/MultiChannelBlending.cpp.s:
+	$(MAKE) -f CMakeFiles/yi.dir/build.make CMakeFiles/yi.dir/splitandmerge/MultiChannelBlending.cpp.s
+.PHONY : splitandmerge/MultiChannelBlending.cpp.s
 
 # Help Target
 help:
@@ -158,10 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... yi"
 	@echo "... li"
-	@echo "... ROI_LinearBlending.o"
-	@echo "... ROI_LinearBlending.i"
-	@echo "... ROI_LinearBlending.s"
+	@echo "... chujituxiangronghe/ROI_LinearBlending.o"
+	@echo "... chujituxiangronghe/ROI_LinearBlending.i"
+	@echo "... chujituxiangronghe/ROI_LinearBlending.s"
+	@echo "... splitandmerge/MultiChannelBlending.o"
+	@echo "... splitandmerge/MultiChannelBlending.i"
+	@echo "... splitandmerge/MultiChannelBlending.s"
 .PHONY : help
 
 

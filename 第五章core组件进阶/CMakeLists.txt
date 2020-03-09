@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 2.8)
 
 # Define project name
 project(li)
+project(yi)
 
 # Find OpenCV, you may need to set OpenCV_DIR variable
 # to the absolute path to the directory containing OpenCVConfig.cmake file
@@ -24,8 +25,12 @@ if(CMAKE_VERSION VERSION_LESS "2.8.11")
 endif()
 
 # Declare the executable target built from your sources
-add_executable(li ./chujituxiangronghe/ROI_LinearBlending.cpp)
+add_executable(li ../chujituxiangronghe/ROI_LinearBlending.cpp)
+add_executable(yi ../splitandmerge/MultiChannelBlending.cpp)
 
 # Link your application with OpenCV libraries
 target_link_libraries(li ${OpenCV_LIBS})
+target_link_libraries(yi ${OpenCV_LIBS})
+
+
 

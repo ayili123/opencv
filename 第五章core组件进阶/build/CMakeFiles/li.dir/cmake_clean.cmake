@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/li.dir/ROI_LinearBlending.cpp.o"
+  "CMakeFiles/li.dir/chujituxiangronghe/ROI_LinearBlending.cpp.o"
   "li.pdb"
   "li"
 )

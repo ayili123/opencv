@@ -1,3 +1,0 @@
-/home/li/opencvlearn/第五章core组件进阶/chujituxiangronghe/build/CMakeFiles/edit_cache.dir
-/home/li/opencvlearn/第五章core组件进阶/chujituxiangronghe/build/CMakeFiles/rebuild_cache.dir
-/home/li/opencvlearn/第五章core组件进阶/chujituxiangronghe/build/CMakeFiles/li.dir

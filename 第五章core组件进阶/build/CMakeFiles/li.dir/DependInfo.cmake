@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/li/opencvlearn/第五章core组件进阶/chujituxiangronghe/ROI_LinearBlending.cpp" "/home/li/opencvlearn/第五章core组件进阶/chujituxiangronghe/build/CMakeFiles/li.dir/ROI_LinearBlending.cpp.o"
+  "/home/li/opencvlearn/第五章core组件进阶/chujituxiangronghe/ROI_LinearBlending.cpp" "/home/li/opencvlearn/第五章core组件进阶/build/CMakeFiles/li.dir/chujituxiangronghe/ROI_LinearBlending.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
